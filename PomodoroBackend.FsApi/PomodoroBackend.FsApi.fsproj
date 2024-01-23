@@ -2,10 +2,13 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
         <InvariantGlobalization>true</InvariantGlobalization>
-        <PublishAot>true</PublishAot>
     </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="WeatherForecast.fs"/>
+        <Compile Include="Controllers/WeatherForecastController.fs"/>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
 
 </Project>
