@@ -22,8 +22,8 @@ module Program =
 
         let builder = WebApplication.CreateBuilder(args)
 
-        builder.Services.AddControllers()
-
+        builder.Services.AddControllers().AddNewtonsoftJson()
+        
         let app = builder.Build()
 
         app.UseHttpsRedirection()
