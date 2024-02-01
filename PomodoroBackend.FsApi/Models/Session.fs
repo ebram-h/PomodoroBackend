@@ -21,6 +21,6 @@ type Session =
       Apps: IDictionary<string, AppDetailsInSession>
       SpentTimeInHour: double
       SwitchTimes: int
-      StartTime: UInt64
+      StartTime: int64
       Efficiency: double
       BoardId: string }
